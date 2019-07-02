@@ -15,8 +15,8 @@ class NextCard extends Component {
   render(props) {
     return (
       <div className="buttonContainer">
-        <Button waves="light" onClick={this.drawCard}>
-          Next Question <Icon left>autorenew</Icon>
+        <Button className="react-blue" waves="light" onClick={this.drawCard}>
+          Next Question 
         </Button>
       </div>
     );

@@ -62,7 +62,7 @@
 }
 
 .answer {
-  color: teal;
+  color: #61dafb;
   font-size: 1.3em;
   padding: 7%;
   padding-top: 20%;
@@ -130,4 +130,8 @@
   margin: 0 auto;
   font-weight: 600;
   margin-right: 50rem;
+}
+
+.react-blue {
+  background-color: #61dafb;
 }

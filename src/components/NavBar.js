@@ -5,7 +5,7 @@ export default class NavBar extends Component {
   render() {
     return (
       <div>
-        <Navbar className="teal">
+        <Navbar className="react-blue">
           <div className="brand-logo"> </div>
         </Navbar>
         <div className="title">
