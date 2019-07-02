@@ -16,7 +16,7 @@ class NextCard extends Component {
     return (
       <div className="buttonContainer">
         <Button waves="light" onClick={this.drawCard}>
-          Next Question<Icon left>autorenew</Icon>
+          Next Question
         </Button>
       </div>
     );
