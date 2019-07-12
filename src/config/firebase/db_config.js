@@ -1,14 +1,11 @@
 const API_KEY = process.env.REACT_APP_FIREBASE_API_KEY;
 const MESSAGING_SENDER_ID = process.env.REACT_APP_MESSAGE_SENDER_ID;
 
-
 export const DB_CONFIG = {
-  
-        apiKey: API_KEY,
-        authDomain: "react-flashcards-79ee1.firebaseapp.com",
-        databaseURL: "https://react-flashcards-79ee1.firebaseio.com",
-        projectId: "react-flashcards-79ee1",
-        storageBucket: "react-flashcards-79ee1.appspot.com",
-        messagingSenderId: MESSAGING_SENDER_ID
-    
-}
+    apiKey: 'AIzaSyBcR4ztuHmAbEEPZ8aDsQTLemq83LfTjGk',
+    authDomain: 'react-flashcards-5369f.firebaseapp.com',
+    databaseURL: 'https://react-flashcards-5369f.firebaseio.com',
+    projectId: 'react-flashcards-5369f',
+    storageBucket: '',
+    messagingSenderId: '484529349043'
+};

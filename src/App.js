@@ -3,10 +3,11 @@ import "./App.css";
 import Card from "./components/Card";
 import NextCard from "./components/NextCard";
 import CardList from "./components/CardList";
+import NavBar from "./components/NavBar";
+
 import firebase, { database } from "firebase";
 import "firebase/database";
 import { DB_CONFIG } from "./config/firebase/db_config";
-import NavBar from "./components/NavBar";
 
 class App extends Component {
   constructor(props) {
@@ -24,8 +25,7 @@ class App extends Component {
         {
           id: Number,
           question: "",
-          answer: "",
-          pin: ""
+          answer: ""
         }
       ]
     };
@@ -37,8 +37,7 @@ class App extends Component {
       currentCards.push({
         id: snap.key,
         question: snap.val().question,
-        answer: snap.val().answer,
-        pin: snap.val().pin
+        answer: snap.val().answer
       });
       this.setState({
         cards: currentCards,
@@ -58,6 +57,7 @@ class App extends Component {
       currentCard: this.getRandomCard(currentCards)
     });
   };
+
   render() {
     return (
       <div className="App">
@@ -67,7 +67,6 @@ class App extends Component {
             <Card
               question={this.state.currentCard.question}
               answer={this.state.currentCard.answer}
-              pin={this.state.currentCard.pin}
             />
           </div>
           <div className="buttonRow">

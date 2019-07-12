@@ -1,0 +1,114 @@
+{
+    "cards": [
+        {
+            "id": 1,
+            "question": "What is React?",
+            "answer": "React is a JavaScript library that makes building user interfaces easy. It was developed by Facebook in 2013."
+        },
+        {
+            "id": 2,
+            "question": "Define the term Redux.",
+            "answer": "Redux is a library used for front end development. It is a state container for JavaScript applications which should be used for the applications state management. You can test and run an application developed with Redux in different environments."
+        },
+        {
+            "id": 3,
+            "question": "What is the ‘Store’ feature in Redux?",
+            "answer": "Redux has a feature called ‘Store’ which allows you to save the application’s entire State at one place. Therefore all it’s component’s State are stored in the Store so that you will get regular updates directly from the Store. The single state tree helps you to keep track of changes over time and debug or inspect the application."
+        },
+        {
+            "id": 4,
+            "question": "What is an action in Redux?",
+            "answer": "It is a function which returns an action object. The action-type and the action data are always stored in the action object. Actions can send data between the Store and the software application. All information retrieved by the Store is produced by the actions."
+        },
+        {
+            "id": 5,
+            "question": "What is a stateless component?",
+            "answer": "Stateless components are pure functions that render DOM-based solely on the properties provided to them."
+        },
+        {
+            "id": 6,
+            "question": "What is React Router used for?",
+            "answer": "React Router is a routing library which allows you to add new screen flows to your application, and it also keeps URL in sync with what’s being shown on the page."
+        },
+        {
+            "id": 7,
+            "question": "What is dispatcher?",
+            "answer": "A dispatcher is a central hub of app where you will receive actions and broadcast payload to registered callbacks."
+        },
+        {
+            "id": 8,
+            "question": "What is a callback and how is it used in React?",
+            "answer": "A callback is a function passed in as a parameter to another function and is to be executed after another function has finished. A callback function should be called when setState has finished, and the component is re-rendered. As the setState is asynchronous, which is why it takes in a second callback function."
+        },
+        {
+            "id": 9,
+            "question": "What is a higher order component?",
+            "answer": "A higher-order component also shortly known as HOC is an advanced technique for reusing component logic. It is not a part of the React API, but they are a pattern which emerges from React’s compositional nature."
+        },
+        {
+            "id": 10,
+            "question": "What are props?",
+            "answer": "Props mean properties, which is a way of passing data from parent to child. We can say that props are just a  communication channel between components. It is always moving from parent to child component."
+        },
+        {
+            "id": 11,
+            "question": "What is a higher order component?",
+            "answer": "A higher-order component also shortly known as HOC is an advanced technique for reusing component logic. It is not a part of the React API, but they are a pattern which emerges from React’s compositional nature."
+        },
+        {
+            "id": 12,
+            "question": "What is state and how is it used in React?",
+            "answer": "It is an object which decides how a specific component renders and how it behaves. The state stores the information which can be changed over the lifetime of a React component."
+        },
+        {
+            "id": 13,
+            "question": "Explain the use of 'key' in a list.",
+            "answer": "Keys allow you to provide each list element with a stable identity. The keys should be unique."
+        },
+        {
+            "id": 14,
+            "question": "What is Context?",
+            "answer": "React context helps you to pass data using the tree of react components. It helps you to share data globally between various react components."
+        },
+        {
+            "id": 15,
+            "question": "What is Babel?",
+            "answer": "Babel, is a JavaScript compiler that converts latest JavaScript like ES6, ES7 into plain old ES5 JavaScript that most browsers understand."
+        },
+        {
+            "id": 16,
+            "question": "Explain the term 'restructuring'.",
+            "answer": "Restructuring is extraction process of array objects. Once the process is completed, you can separate each object in a separate variable."
+        },
+        {
+            "id": 17,
+            "question": "What is the use of 'prop-types' library?",
+            "answer": "Prop-types allows you to perform runtime type checking for props and similar object in a recent application."
+        },
+        {
+            "id": 18,
+            "question": "Why would you use React Hooks?",
+            "answer": "React hooks allows you to use State, and other React features without writing a class."
+        },
+        {
+            "id": 19,
+            "question": "Explian the lifecycle method ComponentWillMount().",
+            "answer": "This function is called after the DOM element removes from DOM, and it will swipe the memory, which helps you to increase the access space."
+        },
+        {
+            "id": 20,
+            "question": "How is the arrow function used in React?",
+            "answer": "The arrow function helps you to predict the behavior of bugs when passed as a callback. Therefore, it prevents bug caused by this all together."
+        },
+        {
+            "id": 21,
+            "question": "What is the use of a super()?",
+            "answer": "The super keyword helps you to access and call functions on an object’s parent."
+        },
+        {
+            "id": 22,
+            "question": "Can you update props in React?",
+            "answer": "You can’t update props in react js because props are read-only. Moreover, you can not modify props received from parent to child."
+        }
+    ]
+}
